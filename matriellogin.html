@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link href="css/style.css" rel="stylesheet" type="text/css"> 
+    <title>Login & Register</title>
+</head>
+<body>
+   
+    <div id="form-container">
+        <div id="forms">
+            <div class="form form-sign-in">
+                <h1 class="form-title">Sign in</h1>
+                <div class="form-options">
+                    <a class="form-option" href="http://facebook.com">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a class="form-option" href="http://gmail.com">
+                           <ion-icon name="logo-google"></ion-icon> 
+                    </a>
+                    <a class="form-option" href="https://mm.linkedin.com/">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                     </a>
+                </div>
+                <div class="form-input">
+                    <h5>or use your account</h5>
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="password"  name="pswd" placeholder="Password">
+                    <a class="forgot-password" href="#">Forgot your password?</a>
+                </div>
+                <button class="form-button" id="form-sign-in-btn">SIGN IN</button>
+            </div>
+            <div class="form form-sign-up">
+                <h1 class="form-title">Create account</h1>
+                <div class="form-options">
+                    <a class="form-option" href="http://facebook.com">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a class="form-option" href="http://gmail.com">
+                        <ion-icon name="logo-google"></ion-icon> 
+                    </a>
+                    <a class="form-option" href="https://mm.linkedin.com/">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                     </a>
+                </div>
+                <div class="form-input">
+                    <h5>or use your email for registration</h5>
+                    <input type="text" name="txt" placeholder="Name" required="">
+                    <input type="email" name="email" placeholder="Email" required="">
+                    <input type="password"  name="pswd" placeholder="Password" required="">
+                    <input type="text"  name="add" placeholder="Adresse" required="">
+                   
+                    <input type="number"  name="Tel" placeholder="Phone" required="">
+                   
+
+                </div>
+                <button class="form-button">SIGN UP</button>
+            </div>                
+            </div>
+            <div id="overlay-container">
+                <div id="overlay">
+                    <div class="overlay-panel overlay-1">
+                        <h1>Bon retour!</h1>
+                        <p>Pour rester connecté avec nous, veuillez vous connecter avec vos informations personnelles</p>
+                        <button class="overlay-btn" id="overlay-sign-in-btn">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-2">
+                        <h1>Bienvenue </h1>
+                        <p>Entrez vos données personnelles et commencez avec nous</p>
+                        <button class="overlay-btn" id="overlay-sign-up-btn">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <br>
+    <br>
+    <!--Footer-->
+<footer class="footer_wrapper" id="contact">
+    <div class="container">
+      <section class="page_section contact" id="contact">
+        <div class="contact_section">
+          <h2>Contact Us</h2>
+      <h6>Oxygen Park Program publisher / Supplier</h6>
+       
+        </div>
+        <div class="row">
+          <div class="col-lg-4 wow fadeInLeft">	
+           <div class="contact_info">
+                              <div class="detail">
+                                  <h4>Axe Capital Forest</h4>
+                                  <p>Carlyle House Lowers Ground Floor
+                                    235-237 Vauxhall Bridge Road
+                                    London SW1V1EJ</p>
+                              </div>
+                              <div class="detail">
+                                  <h4>Phone</h4>
+                                  <p>+44 20 31 96 54 60</p>
+                              </div>
+                              <div class="detail">
+                                  <h4>Email us</h4>
+                                  <p>info@axecapitalforest.com</p>
+                              </div> 
+                          </div>
+                   
+                
+            
+            <ul class="social_links">
+              <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+              <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
+              <li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>
+              <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li> 
+            </ul>
+          </div>
+          <div class="col-lg-8 wow fadeInLeft delay-06s">
+            <div class="form">
+              <input class="input-text" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+              <input class="input-text" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+              <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+              <input class="input-btn" type="submit" value="send message">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container">
+      <div class="footer_bottom"><span>Copyright © reserved,</span> </div>
+    </div>
+  </footer>
+  
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+  <script type="text/javascript" src="js/jquery.nav.js"></script> 
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.js"></script>
+  <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
+  <script type="text/javascript" src="js/wow.js"></script> 
+  <script type="text/javascript" src="js/custom.js"></script>
+  
+   
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script language="javascript" type="text/javascript" src="js/script.js"></script>
+<a id="source" target="_blank" title="source challenge" href="https://codepen.io/FlorinPop17/pen/vPKWjd"><i class="fa fa-heart"></i></a>
+</body>
+</html>
